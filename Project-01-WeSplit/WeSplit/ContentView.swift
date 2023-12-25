@@ -19,6 +19,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Unit", systemImage: "square.and.pencil")
                 }
+            GuessFlag()
+                .tabItem {
+                    Label("Guess", systemImage: "flag.fill")
+                }
         }
         
     }

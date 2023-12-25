@@ -13,6 +13,7 @@
 		C47F02A22B36F7FA00933E47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F02A12B36F7FA00933E47 /* ContentView.swift */; };
 		C47F02A42B36F7FB00933E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F02A32B36F7FB00933E47 /* Assets.xcassets */; };
 		C47F02A72B36F7FB00933E47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F02A62B36F7FB00933E47 /* Preview Assets.xcassets */; };
+		C4BE48802B39C59E00678206 /* GuessFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE487F2B39C59E00678206 /* GuessFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C47F02A12B36F7FA00933E47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C47F02A32B36F7FB00933E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47F02A62B36F7FB00933E47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4BE487F2B39C59E00678206 /* GuessFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			children = (
 				C4591D452B387A7700BE15FE /* TipCalculator.swift */,
 				C4591D472B387ADD00BE15FE /* UnitConverter.swift */,
+				C4BE487F2B39C59E00678206 /* GuessFlag.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				C4591D462B387A7700BE15FE /* TipCalculator.swift in Sources */,
 				C47F02A22B36F7FA00933E47 /* ContentView.swift in Sources */,
 				C4591D482B387ADD00BE15FE /* UnitConverter.swift in Sources */,
+				C4BE48802B39C59E00678206 /* GuessFlag.swift in Sources */,
 				C47F02A02B36F7FA00933E47 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
