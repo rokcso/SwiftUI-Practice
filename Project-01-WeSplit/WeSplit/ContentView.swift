@@ -13,11 +13,11 @@ struct ContentView: View {
         TabView {
             TipCalculator()
                 .tabItem {
-                    Label("Tip", systemImage: "list.dash")
+                    Label("Tip", systemImage: "number.circle.fill")
                 }
             UnitConverter()
                 .tabItem {
-                    Label("Unit", systemImage: "square.and.pencil")
+                    Label("Unit", systemImage: "arrow.clockwise.circle.fill")
                 }
             GuessFlag()
                 .tabItem {
