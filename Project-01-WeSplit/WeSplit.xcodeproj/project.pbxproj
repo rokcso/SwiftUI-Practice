@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C412F0722B3DC6B500E4616C /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412F0712B3DC6B500E4616C /* ViewsAndModifiers.swift */; };
 		C4591D462B387A7700BE15FE /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4591D452B387A7700BE15FE /* TipCalculator.swift */; };
 		C4591D482B387ADD00BE15FE /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4591D472B387ADD00BE15FE /* UnitConverter.swift */; };
 		C47F02A02B36F7FA00933E47 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F029F2B36F7FA00933E47 /* WeSplitApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C412F0712B3DC6B500E4616C /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		C4591D452B387A7700BE15FE /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 		C4591D472B387ADD00BE15FE /* UnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 		C47F029C2B36F7FA00933E47 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 				C4591D452B387A7700BE15FE /* TipCalculator.swift */,
 				C4591D472B387ADD00BE15FE /* UnitConverter.swift */,
 				C4BE487F2B39C59E00678206 /* GuessFlag.swift */,
+				C412F0712B3DC6B500E4616C /* ViewsAndModifiers.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				C4591D462B387A7700BE15FE /* TipCalculator.swift in Sources */,
 				C47F02A22B36F7FA00933E47 /* ContentView.swift in Sources */,
 				C4591D482B387ADD00BE15FE /* UnitConverter.swift in Sources */,
+				C412F0722B3DC6B500E4616C /* ViewsAndModifiers.swift in Sources */,
 				C4BE48802B39C59E00678206 /* GuessFlag.swift in Sources */,
 				C47F02A02B36F7FA00933E47 /* WeSplitApp.swift in Sources */,
 			);
