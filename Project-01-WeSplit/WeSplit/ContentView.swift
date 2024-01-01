@@ -23,6 +23,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Guess", systemImage: "flag.fill")
                 }
+            RockPaperScissors()
+                .tabItem {
+                    Label("Rock", systemImage: "eyes.inverse")
+                }
         }
         
     }
