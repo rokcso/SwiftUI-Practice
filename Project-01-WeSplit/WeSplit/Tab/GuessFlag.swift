@@ -18,8 +18,8 @@ struct GuessFlag: View {
     
     var body: some View {
         ZStack() {
-            Color.gray
-                .ignoresSafeArea()
+//            Color.gray
+//                .ignoresSafeArea()
             
 //            LinearGradient(colors: [.blue, .green], startPoint: .top, endPoint: .bottom)
 //                .ignoresSafeArea()
@@ -45,6 +45,8 @@ struct GuessFlag: View {
                         }
                     }
                 }
+                .frame(width: 300, height: 400)
+                .background(.gray)
                 
                 Spacer()
                 Spacer()
