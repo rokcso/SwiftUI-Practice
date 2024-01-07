@@ -19,6 +19,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Word", systemImage: "note.text")
                 }
+            Animation()
+                .tabItem {
+                    Label("Animation", systemImage: "livephoto.badge.automatic")
+                }
         }
     }
 }
