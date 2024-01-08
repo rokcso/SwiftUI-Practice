@@ -8,32 +8,40 @@
 import SwiftUI
 
 struct Animation: View {
-    @State private var animationAmount = 1.0
+    @State private var showRe = false
+    
+    struct CornerRotateModifier: ViewModifier {
+        let amount: Double
+        let anchor: UnitPoint
+        
+        func body(content: Content) -> some View {
+            content
+                .rotationEffect(.degrees(amount), anchor: anchor)
+                .clipped()
+        }
+    }
+    
+    extension AnyTransition {
+        static var pivot: AnyTransition {
+            .modifier(active: CornerRotateModifier(amount: -90, anchor: .topLeading), identity: CornerRotateModifier(amount: 0, anchor: .topLeading))
+        }
+    }
     
     var body: some View {
-        Button("Tap") {
-//            animationAmount += 0.5
+        VStack {
+            Button("Tap") {
+                withAnimation {
+                    showRe.toggle()
+                }
+            }
+            
+            if showRe {
+                Rectangle()
+                    .fill(.red)
+                    .frame(width: 200, height: 200)
+                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
+            }
         }
-        .padding(50)
-        .background(.red)
-        .foregroundStyle(.white)
-        .clipShape(.circle)
-        .font(.title.weight(.bold))
-//        .scaleEffect(animationAmount)
-//        .blur(radius: (animationAmount - 1) * 3)
-//        .animation(.easeInOut(duration: 2).delay(1).repeatCount(2, autoreverses: true), value: animationAmount)
-
-        .overlay(
-            Circle()
-                .stroke(.red)
-                .scaleEffect(animationAmount)
-                .opacity(2 - animationAmount)
-                .animation(.easeOut(duration: 1).repeatForever(autoreverses: false), value: animationAmount)
-        )
-        .onAppear {
-            animationAmount = 2
-        }
-        
     }
 }
 
