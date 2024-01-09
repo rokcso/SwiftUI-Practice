@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C41FBD012B4AFB2D00E4ADEC /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FBD002B4AFB2D00E4ADEC /* Animation.swift */; };
 		C4324E542B46FEA700913588 /* CoffeeP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4324E532B46FEA700913588 /* CoffeeP.swift */; };
 		C4324E562B46FFAD00913588 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4324E552B46FFAD00913588 /* Word.swift */; };
 		C443717B2B4453CE0071CB52 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443717A2B4453CE0071CB52 /* BetterRestApp.swift */; };
 		C443717D2B4453CE0071CB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443717C2B4453CE0071CB52 /* ContentView.swift */; };
 		C443717F2B4453D00071CB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C443717E2B4453D00071CB52 /* Assets.xcassets */; };
 		C44371822B4453D00071CB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44371812B4453D00071CB52 /* Preview Assets.xcassets */; };
+		C44477BD2B4D87F9007ACDC4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44477BC2B4D87F9007ACDC4 /* Challenge.swift */; };
 		C47D9E1A2B49968D008F28E3 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = C47D9E192B49968C008F28E3 /* start.txt */; };
 		C4AF3B022B459B4F0071E471 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C4AF3B012B459B4F0071E471 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C41FBD002B4AFB2D00E4ADEC /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		C4324E532B46FEA700913588 /* CoffeeP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeP.swift; sourceTree = "<group>"; };
 		C4324E552B46FFAD00913588 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		C44371772B4453CE0071CB52 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +26,7 @@
 		C443717C2B4453CE0071CB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C443717E2B4453D00071CB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44371812B4453D00071CB52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C44477BC2B4D87F9007ACDC4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		C47D9E192B49968C008F28E3 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		C4AF3B012B459B4F0071E471 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../../SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 				C443717C2B4453CE0071CB52 /* ContentView.swift */,
 				C4324E552B46FFAD00913588 /* Word.swift */,
 				C4324E532B46FEA700913588 /* CoffeeP.swift */,
-				C41FBD002B4AFB2D00E4ADEC /* Animation.swift */,
+				C44477BC2B4D87F9007ACDC4 /* Challenge.swift */,
 				C443717E2B4453D00071CB52 /* Assets.xcassets */,
 				C44371802B4453D00071CB52 /* Preview Content */,
 			);
@@ -154,10 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4324E542B46FEA700913588 /* CoffeeP.swift in Sources */,
+				C44477BD2B4D87F9007ACDC4 /* Challenge.swift in Sources */,
 				C443717D2B4453CE0071CB52 /* ContentView.swift in Sources */,
 				C4324E562B46FFAD00913588 /* Word.swift in Sources */,
 				C4AF3B022B459B4F0071E471 /* SleepCalculator.mlmodel in Sources */,
-				C41FBD012B4AFB2D00E4ADEC /* Animation.swift in Sources */,
 				C443717B2B4453CE0071CB52 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
