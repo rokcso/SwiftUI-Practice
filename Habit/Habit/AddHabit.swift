@@ -1,5 +1,5 @@
 //
-//  addHabit.swift
+//  AddHabit.swift
 //  Habit
 //
 //  Created by rokcso on 2024/1/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct addHabit: View {
+struct AddHabit: View {
     @State private var title: String = ""
     @State private var type: String = "Life"
     private let types: [String] = ["Life", "Work", "Sport"]
@@ -69,5 +69,5 @@ struct addHabit: View {
 }
 
 #Preview {
-    addHabit(habitList: HabitList())
+    AddHabit(habitList: HabitList())
 }

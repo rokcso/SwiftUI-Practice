@@ -56,22 +56,26 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 List {
-                    ForEach(habitList.items) {
-                        item in
-                        VStack {
-                            HStack {
-                                Text(item.title)
-                                    .font(.title3.weight(.bold))
-                                Spacer()
-                                Text("\(item.markedNum) marks")
+                    ForEach($habitList.items) {
+                        $item in
+                        NavigationLink(destination: HabitDetail(habit: $item)) {
+                            VStack {
+                                HStack {
+                                    Text(item.title)
+                                        .font(.title3.weight(.bold))
+                                    Spacer()
+                                    Text("\(item.markedNum) marks")
+//                                        .foregroundStyle(.orange)
+                                }
+                                HStack {
+                                    Text("#\(item.type)")
+                                        .font(.subheadline.weight(.light))
+                                        .foregroundColor(.orange)
+                                    Spacer()
+                                }
+                                ProgressView(value: item.progress, total: 1.0)
+                                    .progressViewStyle(LinearProgressViewStyle(tint: .green))
                             }
-                            HStack {
-                                Text("#\(item.type)")
-                                    .font(.subheadline.weight(.light))
-                                    .foregroundColor(.gray)
-                                Spacer()
-                            }
-                            ProgressView(value: item.progress, total: 1.0)
                         }
                     }
                     .onDelete(perform: { indexSet in
@@ -88,7 +92,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showAddHabit, content: {
-            addHabit(habitList: habitList)
+            AddHabit(habitList: habitList)
         })
     }
 }
